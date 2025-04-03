@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIk-Lab</title>
+    <!-- link to bootstrap css -->
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!-- link to css -->
+<link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- link to favicon -->
+     <link rel="stylesheet" href="assets/img/favicon (2).png">
+
+
+     <!-- link to remix icons -->
+     <link
+     href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+     rel="stylesheet"
+ />
+
+
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <!-- header -->
+
+  <header class="sticky-top">
+    <div class="header-content">
+
+    <div class="header2">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-container">
+          <a class="navbar-brand " href="index.html">
+        
+              <span>MIK-LAB</span>
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-bs-controls="navbarSupportedContent"
+           
+          >
+           <div class="hamburger">
+            <div class="line" id="l1"></div>
+            <div class="line"></div>
+            <div class="line" id="l2"></div>
+           </div>
+          </button>
+          
+          <div class="collapse navbar-collapse   border-danger" id="navbarSupportedContent">
+            <div class="menu d-flex justify-content-end">
+              <ul class="navbar-nav text-center text-white">
+
+                
+                <li class="nav-item">
+                  <a href="#index.html" class="nav-link">Home</a>
+                </li>
+
+                
+                <li class="nav-item">
+                  <a href="#about" class="nav-link  ">About</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#services" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#departments" class="nav-link">Departments</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#doctors" class="nav-link">Doctors</a>
+                </li>
+
+                <li class="nav-item">
+                  <a href="#gallery" class="nav-link">Gallery</a>
+                </li>
+
+                <li class="nav-item">
+                  <a href="#contact" class="nav-link">Contact</a>
+                </li>
+
+              </ul>
+
+            </div>
+            
+              <a href="#appoinment">
+                <button class="btn-lg pill d-md-0">Book</button>
+              </a>
+            </div>
+          
+        </nav>
+      </div>
+    </div>
+  </div>
+   
+  </header>
+
+  <!-- banner  -->
+
+  <section class="banner" id="banner" style="background-image: url(assets/img/hero-bg.jpg);">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="banner-text">
+            <h1 class="display-3 fw-5">
+              WELCOME TO MIK-LAB
+            </h1>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur repellat, iure a consequatur sapiente iusto.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-sm-12   col-lg-4">
+          <div class="why  px-3">
+            <h3>Why choose us</h3>
+            <p>
+              Choosing MIK-LAB means opting for a commitment to excellence and patient-centered care.
+               Our experienced team combines cutting-edge technology with a compassionate approach,
+                ensuring that each patient receives personalized attention and tailored treatment plans.
+                 We prioritize quick response times and effective communication, fostering a supportive 
+                 environment where patients feel valued and understood. With a focus on innovation and
+                  quality, MIK-LAB stands out as a trusted partner in your health journey, dedicated to 
+                  helping you achieve optimal outcomes.
+            </p>
+            <a href="#">
+              <buttpm class="btn mt-3">Learnmore</buttpm>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-sm-12   col-lg-8">
+            
+          <div class="row">
+                
+            <div class="col-md-4">
+              <div class="content px-3 ">
+                    <div class="icon">
+                      <i class="ri-hospital-fill"></i>
+                    </div>
+                    <h3>
+                      Quick Response
+                    </h3>
+
+                    <p>
+                      At MIK-LAB, we pride ourselves on our quick response times, ensuring clients
+                       receive timely support and tailored solutions. Our dedicated team is always
+                        ready to address inquiries and resolve issues efficiently, enhancing client 
+                        satisfaction and fostering collaboration.
+                    </p>
+              </div>
+            </div>
+
+
+            <div class="col-md-4">
+              <div class="content px-3">
+                    <div class="icon">
+                      <i class="ri-capsule-fill"></i>
+                    </div>
+                    <h3>
+                      Cardiology
+                    </h3>
+  
+                    <p>
+                      At MIK-LAB, our cardiology services are designed to provide comprehensive and
+                       timely care for our patients. With a team of experienced specialists, we offer
+                        advanced diagnostic and treatment options tailored to individual needs. 
+                    </p>
+              </div>
+            </div>
+
+
+
+            <div class="col-md-4">
+              <div class="content px-3">
+                    <div class="icon">
+                      <i class="ri-medicine-bottle-fill"></i>
+                    </div>
+                    <h3>
+                      Neurology
+                    </h3>
+  
+                    <p>
+                      At MIK-LAB, our neurology services provide expert care for various neurological conditions.
+                       Our skilled neurologists use advanced diagnostic tools and personalized treatment options 
+                       to ensure timely evaluations and interventions.
+                    </p>
+              </div>
+            </div>
+
+
+          
+          </div>
+
+          
+
+
+       
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- about section -->
+
+  <section class="about" id="about">
+    <div class="container">
+      <div class="row">
+      <div class="col-md-6">
+        <img src="assets/img/about.jpg" alt="">
+      </div>
+
+      <div class="col-md-6">
+        <div class="content">
+          <h2>About us</h2>
+          <p>
+            MIK-LAB Hospital is renowned for its commitment to patient care, 
+            advanced medical technology, and a team of highly qualified professionals. 
+            Clients can trust MIK-LAB due to its transparent communication, adherence
+             to the highest medical standards, and a patient-centered approach that
+              prioritizes safety and satisfaction, ensuring a reliable healthcare experience.
+
+          </p>
+        
+         
+          
+           
+           </div>
+
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+
+<section class="awards">
+<div class="container">
+  <div class="row">
+    <div class="col-lg-3 col-md-6">
+      <div class="inner">
+
+        <div class="icon fs-2 text-white">
+          <i class="ri-health-book-line"></i>
+        </div>
+          <div class="h2" data-value="85">
+            85
+          </div>
+          <span>
+            Doctors
+          </span>
+      </div>
+    </div>
+
+
+    <div class="col-lg-3 col-md-6">
+      <div class="inner">
+
+        <div class="icon fs-2 text-white">
+          <i class="ri-hospital-fill"></i>
+        </div>
+          <div class="h2" data-value="18">
+            18
+          </div>
+          <span>
+            Departments
+          </span>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6">
+      <div class="inner">
+
+        <div class="icon fs-2 text-white">
+          <i class="ri-flask-fill"></i>
+        </div>
+          <div class="h2" data-value="12">
+            12
+          </div>
+          <span>
+            Research lab
+          </span>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-6">
+      <div class="inner">
+
+        <div class="icon fs-2 text-white">
+          <i class="ri-award-fill"></i>
+        </div>
+          <div class="h2" data-value="105">
+            105
+          </div>
+          <span>
+            Awards
+          </span>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+
+<section class="services" id="services">
+  <div class="container">
+    <div class="header my-4">
+      <h2 class="my-4">Services</h2>
+
+      <div class="deco my-3">
+
+        <div class="spice"></div>
+      </div>
+
+      <p>
+        Lorem, ipsum dolor sit amet consectetur 
+        adipisicing elit. Qui, vel.
+      </p>
+    </div>
+
+    <div class="row">
+
+
+      <div class="col-md-4">
+        <div class="content">
+            <div class="icon fs-3">
+              <i class="ri-hospital-line"></i>
+            </div>
+
+            <div class="h2">
+              Cardio 
+            </div>
+
+            <p>
+              At our lab, we offer advanced cardiac treatments, including cardiac catheterization and 
+              percutaneous coronary interventions. These minimally invasive procedures diagnose and treat conditions 
+              like coronary artery disease by opening blocked arteries to improve blood flow.
+               Utilizing state-of-the-art technology, our skilled team ensures optimal heart health 
+               and provides tailored follow-up care for a smooth recovery.
+            </p>
+        </div>
+      </div>
+
+
+        
+      <div class="col-md-4">
+        <div class="content">
+            <div class="icon fs-3">
+              <i class="ri-brain-2-fill"></i>
+            </div>
+
+            <div class="h2">
+              Neurology
+            </div>
+
+            <p>
+              At our lab, we provide cutting-edge neurological treatments, including 
+              advanced imaging and minimally invasive procedures for diagnosing
+               and managing conditions such as stroke, epilepsy, and neurodegenerative 
+               disorders. Our expert team utilizes state-of-the-art technology to
+                conduct thorough assessments, enabling precise diagnoses and personalized 
+                treatment plans. We prioritize patient care and closely monitor progress 
+                to ensure optimal outcomes and support overall neurological health.
+            </p>
+        </div>
+      </div>
+
+
+
+
+
+
+        
+      <div class="col-md-4">
+        <div class="content">
+            <div class="icon fs-3">
+              <i class="ri-dropper-fill"></i>
+            </div>
+
+            <div class="h2">
+              Eye Care
+            </div>
+
+            <p>
+              At our lab, we specialize in comprehensive eye care, offering advanced diagnostic
+               services and treatments for a range of conditions, including cataracts, glaucoma, 
+               and retinal disorders. 
+              Our experienced team utilizes state-of-the-art technology to 
+              conduct thorough eye examinations and develop personalized treatment plans. We are committed to ensuring optimal vision health and providing ongoing support to enhance our patients' quality of life.
+            </p>
+        </div>
+      </div>
+
+
+    </div>
+
+    <div class="row mt-4">
+
+
+      <div class="col-md-4">
+        <div class="content">
+            <div class="icon fs-3">
+              <i class="ri-stethoscope-fill"></i>
+            </div>
+
+            <div class="h2">
+              Hepatology
+            </div>
+
+            <p>
+              At our lab, we focus on advanced hepatology services, providing comprehensive evaluations and treatments for liver conditions such as hepatitis, cirrhosis, and fatty liver disease. Our expert team employs state-of-the-art diagnostic tools to assess liver health and develop personalized treatment plans. We are dedicated to delivering high-quality care and ongoing support to help our patients achieve optimal liver function and overall well-being.
+            </p>
+        </div>
+      </div>
+
+
+        
+      <div class="col-md-4">
+        <div class="content">
+            <div class="icon fs-3">
+              <i class="ri-dna-fill"></i>
+            </div>
+
+            <div class="h2">
+              Pediatrics
+            </div>
+
+            <p>
+              At our lab, we specialize in pediatric care, offering comprehensive evaluations and treatments for a wide range of childhood illnesses and developmental concerns. Our experienced team utilizes advanced diagnostic tools to assess the health and well-being of our young patients, ensuring personalized care tailored to their unique needs. We are committed to fostering a supportive environment for children and their families, promoting healthy growth and development at every stage.
+            </p>
+        </div>
+      </div>
+
+
+
+
+
+
+        
+      <div class="col-md-4">
+        <div class="content">
+            <div class="icon fs-3">
+              <i class="ri-capsule-line"></i>
+            </div>
+
+            <div class="h2">
+              Pharmacy
+            </div>
+
+            <p>
+              At our lab, we provide comprehensive pharmacy services, focusing on safe and effective medication management for our patients. Our skilled pharmacists utilize advanced technology to ensure accurate dispensing and offer personalized consultations to address individual health needs. We are dedicated to promoting optimal therapeutic outcomes and enhancing patient education, ensuring that each person receives the support necessary for their medication regimen.
+            </p>
+        </div>
+      </div>
+
+
+    </div>
+
+  </div>
+</section>
+
+
+<section class="appointment" id="appointment">
+    <div class="container">
+      <div class="header my-4">
+        <h2 class="my-4">Services</h2>
+  
+        <div class="deco my-3">
+  
+          <div class="spice"></div>
+        </div>
+
+        <div class="container " >
+
+          <form action="forms" method="post" role="form" class="php-email-form">
+            <div class="row">
+              <div class="col-md-4 form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required="">
+              </div>
+              <div class="col-md-4 form-group mt-3 mt-md-0">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required="">
+              </div>
+              <div class="col-md-4 form-group mt-3 mt-md-0">
+                <input type="tel" class="form-control" name="phone" id="phone" placeholder="Your Phone" required="">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4 form-group mt-3">
+                <input type="datetime-local" name="date" class="form-control datepicker" id="date" placeholder="Appointment Date" required="">
+              </div>
+              <div class="col-md-4 form-group mt-3">
+                <select name="department" id="department" class="form-select" required="">
+                  <option value="">Select Department</option>
+                  <option value="Department 1">Department 1</option>
+                  <option value="Department 2">Department 2</option>
+                  <option value="Department 3">Department 3</option>
+                </select>
+              </div>
+              <div class="col-md-4 form-group mt-3">
+                <select name="doctor" id="doctor" class="form-select" required="">
+                  <option value="">Select Doctor</option>
+                  <option value="Doctor 1">Doctor 1</option>
+                  <option value="Doctor 2">Doctor 2</option>
+                  <option value="Doctor 3">Doctor 3</option>
+                </select>
+              </div>
+            </div>
+  
+            <div class="form-group mt-3">
+              <textarea class="form-control" name="message" rows="5" placeholder="Message (Optional)"></textarea>
+            </div>
+            <div class="mt-3">
+              
+              
+              <div class="text-center"><button type="submit">Make an Appointment</button></div>
+            </div>
+          </form>
+  
+        </div>
+    </div>
+</section>
+
+
+
+<section class="departments" id="departments">
+  <div class="container">
+    <div class="header my-4">
+      <h2 class="my-4">Departments</h2>
+
+      <div class="deco my-3">
+
+        <div class="spice"></div>
+      </div>
+  </div>
+
+  <div class="container aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="row">
+      <div class="col-lg-3">
+        <ul class="nav nav-tabs flex-column" role="tablist">
+          <li class="nav-item" role="presentation">
+            <a class="nav-link show active text-dark fw-2" data-bs-toggle="tab" href="#departments-tab-1" aria-selected="true" role="tab">Cardiology</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link " data-bs-toggle="tab" href="#departments-tab-2" aria-selected="false" role="tab" tabindex="-1">Neurology</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link " data-bs-toggle="tab" href="#departments-tab-3" aria-selected="false" role="tab" tabindex="-1">Hepatology</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link " data-bs-toggle="tab" href="#departments-tab-4" aria-selected="false" role="tab" tabindex="-1">Pediatrics</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link " data-bs-toggle="tab" href="#departments-tab-5" aria-selected="false" role="tab" tabindex="-1">Eye Care</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-9 mt-4 mt-lg-0">
+        <div class="tab-content">
+          <div class="tab-pane active text-dark fw-2 show" id="departments-tab-1" role="tabpanel">
+            <div class="row">
+              <div class="col-lg-8 details order-2 order-lg-1">
+                <h3 class="">Cardiology</h3>
+                <p class=" mt-3">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
+                <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
+              </div>
+              <div class="col-lg-4 text-center order-1 order-lg-2">
+                <img src="assets/img/departments-1.jpg" alt="" class="img-fluid object-fit-cover">
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="departments-tab-2" role="tabpanel">
+            <div class="row">
+              <div class="col-lg-8 details order-2 order-lg-1">
+                <h3>Brain treatment</h3>
+                <p class="fst-normal">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
+                <p>Ea ipsum voluptatem consequatur quis est. Illum error ullam omnis quia et reiciendis sunt sunt est. Non aliquid repellendus itaque accusamus eius et velit ipsa voluptates. Optio nesciunt eaque beatae accusamus lerode pakto madirna desera vafle de nideran pal</p>
+              </div>
+              <div class="col-lg-4 text-center order-1 order-lg-2">
+                <img src="assets/img/departments-2.jpg" alt="" class="img-fluid object-fit-cover">
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="departments-tab-3" role="tabpanel">
+            <div class="row">
+              <div class="col-lg-8 details order-2 order-lg-1">
+                <h3>Hepatology</h3>
+                <p class="fst-normal">Eos voluptatibus quo. Odio similique illum id quidem non enim fuga. Qui natus non sunt dicta dolor et. In asperiores velit quaerat perferendis aut</p>
+                <p>Iure officiis odit rerum. Harum sequi eum illum corrupti culpa veritatis quisquam. Neque necessitatibus illo rerum eum ut. Commodi ipsam minima molestiae sed laboriosam a iste odio. Earum odit nesciunt fugiat sit ullam. Soluta et harum voluptatem optio quae</p>
+              </div>
+              <div class="col-lg-4 text-center order-1 order-lg-2">
+                <img src="assets/img/departments-3.jpg" alt="" class="img-fluid object-fit-cover">
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="departments-tab-4" role="tabpanel">
+            <div class="row">
+              <div class="col-lg-8 details order-2 order-lg-1">
+                <h3>Padiatrics</h3>
+                <p class="fst-normal">Totam aperiam accusamus. Repellat consequuntur iure voluptas iure porro quis delectus</p>
+                <p>Eaque consequuntur consequuntur libero expedita in voluptas. Nostrum ipsam necessitatibus aliquam fugiat debitis quis velit. Eum ex maxime error in consequatur corporis atque. Eligendi asperiores sed qui veritatis aperiam quia a laborum inventore</p>
+              </div>
+              <div class="col-lg-4 text-center order-1 order-lg-2">
+                <img src="assets/img/departments-4.jpg" alt="" class="img-fluid object-fit-cover">
+              </div>
+            </div>
+
+          </div>
+
+          <div class="tab-pane" id="departments-tab-5" role="tabpanel">
+            <div class="row">
+              <div class="col-lg-8 details order-2 order-lg-1">
+                <h3 >Eye care</h3>
+                <p class="fst-normal">Omnis blanditiis saepe eos autem qui sunt debitis porro quia.</p>
+                <p>Exercitationem nostrum omnis. Ut reiciendis repudiandae minus. Omnis recusandae ut non quam ut quod eius qui. Ipsum quia odit vero atque qui quibusdam amet. Occaecati sed est sint aut vitae molestiae voluptate vel</p>
+              </div>
+              <div class="col-lg-4 text-center order-1 order-lg-2">
+                <img src="assets/img/departments-5.jpg" alt="" class="img-fluid object-fit-cover">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<!-- Doctors sedtion -->
+
+<section class="doctors" id="doctors">
+  <div class="container">
+
+    <div class="header my-4">
+      <h2 class="my-4">Doctors</h2>
+
+      <div class="deco my-3">
+
+        <div class="spice"></div>
+      </div>
+  </div>
+
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, laudantium repellat! Porro natus, quidem cum iure hic atque distinctio magni.
+  </p>
+
+  <div class="row">
+    <div class="col-lg-6">
+
+      <div class="card d-flex flex-row justify-content-center align-items-center ">
+        <img src="assets/img/doctors/doctors-1.jpg" alt="">
+        <div class="card-body">
+              <div class="card-h">
+                <span class="name">Walter White</span>
+                <span class="position">Chief Medical Officer</span>
+                <hr>
+              </div>
+              <div class="card-text">
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                </p>
+              </div>
+
+              <div class="foot">
+                <i class="ri-instagram-fill"></i>
+                <i class="ri-facebook-fill"></i>
+                <i class="ri-twitter-fill"></i>
+                <i class="ri-linkedin-fill"></i>
+                
+              </div>
+        </div>
+
+      </div>
+
+
+
+      <div class="card d-flex flex-row justify-content-center align-items-center">
+        <img src="assets/img/doctors/doctors-2.jpg" alt="">
+        <div class="card-body">
+              <div class="card-h">
+                <span class="name">Sarah Johnson</span>
+                <span class="position">Anesthesiologist</span>
+                <hr>
+              </div>
+              <div class="card-text">
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                </p>
+              </div>
+
+              <div class="foot">
+                <i class="ri-instagram-fill"></i>
+                <i class="ri-facebook-fill"></i>
+                <i class="ri-twitter-fill"></i>
+                <i class="ri-linkedin-fill"></i>
+              </div>
+        </div>
+
+      </div>
+
+
+
+    </div>
+
+
+    <div class="col-lg-6">
+
+      <div class="card d-flex flex-row justify-content-center align-items-center ">
+        <img src="assets/img/doctors/doctors-3.jpg" alt="">
+        <div class="card-body">
+              <div class="card-h">
+                <span class="name">Xuang Lee</span>
+                <span class="position">Cardiology</span>
+                <hr>
+              </div>
+              <div class="card-text">
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                </p>
+              </div>
+
+              <div class="foot">
+                <i class="ri-instagram-fill"></i>
+                <i class="ri-facebook-fill"></i>
+                <i class="ri-twitter-fill"></i>
+                <i class="ri-linkedin-fill"></i>
+              </div>
+        </div>
+
+      </div>
+
+
+
+      <div class="card d-flex flex-row justify-content-center align-items-center">
+        <img src="assets/img/doctors/doctors-4.jpg" alt="">
+        <div class="card-body">
+              <div class="card-h">
+                <span class="name">Amara Khumalo</span>
+                <span class="position">Neurosurgeon</span>
+                <hr>
+              </div>
+              <div class="card-text">
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                </p>
+              </div>
+
+              <div class="foot">
+                <i class="ri-instagram-fill"></i>
+                <i class="ri-facebook-fill"></i>
+                <i class="ri-twitter-fill"></i>
+                <i class="ri-linkedin-fill"></i>
+              </div>
+        </div>
+
+      </div>
+
+
+
+    </div>
+    
+  </div>
+  </div>
+
+</section>
+
+<!-- asked questions -->
+
+<section class="quetions">
+  <div class="container">
+
+    <div class="header my-4">
+      <h2 class="my-4">Frequently Asked Questions</h2>
+
+      <div class="deco my-3">
+
+        <div class="spice"></div>
+      </div>
+  </div>
+
+
+  <div id="accordion">
+
+  <div class="card">
+    <div class="card-header">
+      <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+        1.What types of tests and services does your lab offer, and how can they help with my health concerns?
+      </a>
+    </div>
+    <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+      <div class="card-body">
+        We offer a wide range of tests, including blood work, imaging, and specialized diagnostics, to help identify and manage various health conditions.
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+        2.How long does it typically take to receive test results, and how will I be notified?
+      </a>
+    </div>
+    <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+      <div class="card-body">
+        Most results are available within 24 to 48 hours, and you will be notified via phone or secure online portal.
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+        3.What measures do you have in place to ensure the accuracy and reliability of your test results?
+      </a>
+    </div>
+    <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+      <div class="card-body">
+        We follow strict quality control protocols and use state-of-the-art equipment to ensure accurate and reliable results.
+
+
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseFour">
+        4.Do you accept my insurance, and what are the payment options for lab services?
+      </a>
+    </div>
+    <div id="collapseFour" class="collapse" data-bs-parent="#accordion">
+      <div class="card-body">
+        We accept a variety of insurance plans; please contact us to confirm your specific plan. We also offer flexible payment options for self-pay patients.
+      </div>
+    </div>
+  </div>
+
+
+  
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseFive">
+        5.What is the process for scheduling an appointment, and what should I expect when I arrive at the lab?
+
+
+      </a>
+    </div>
+    <div id="collapseFive" class="collapse" data-bs-parent="#accordion">
+      <div class="card-body">
+        You can schedule an appointment online or by phone. Upon arrival, you’ll check in, and our staff will guide you through the testing process.
+      </div>
+    </div>
+  </div>
+
+
+</div>
+
+  </div>
+</section>
+
+
+<!-- gallery section  -->
+
+
+<section class="gallery" id="gallery">
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-3">
+      <img src="assets/img/gallery/gallery-1.jpg" alt="">
+    </div>
+    <div class="col-md-3">
+      <img src="assets/img/gallery/gallery-2.jpg" alt="">
+    </div>
+    <div class="col-md-3">
+      <img src="assets/img/gallery/gallery-3.jpg" alt="">
+    </div>
+    <div class="col-md-3">
+      <img src="assets/img/gallery/gallery-4.jpg" alt="">
+    </div>
+  </div>
+</div>
+
+
+
+
+</section>
+
+
+
+
+
+
+
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
