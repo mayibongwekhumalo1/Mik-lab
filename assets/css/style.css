@@ -115,14 +115,18 @@ header .header-content .header2 .container .navbar .collapse .menu .navbar-nav .
   color: white;
   font-weight: 400;
 }
-header .header-content .header2 .container .navbar .collapse .menu .navbar-nav button {
+header .header-content .header2 .container .navbar .collapse .menu button {
+  width: 100px;
+  height: 40px;
+  border: none;
   background-color: #1977CC;
   color: white;
-  width: 70px;
-  height: 30px;
-  border: 0;
-  font-weight: 40px;
-  border-radius: 3px;
+  font-weight: 400;
+  transition: all 0.5s ease-in;
+}
+header .header-content .header2 .container .navbar .collapse .menu button:hover {
+  background-color: white;
+  color: #1977CC;
 }
 
 .banner {

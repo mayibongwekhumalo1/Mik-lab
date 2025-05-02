@@ -205,12 +205,23 @@ header{
 								}
 							}
 
-							button{
-								@include btn();
-							}
+							
 						}
 
-						
+						button{
+							width: 100px;
+							height: 40px;
+							border: none;
+							background-color: #1977CC;
+							color: white;
+							font-weight: 400;
+							transition: all .5s ease-in;
+
+							&:hover{
+								background-color: white;
+								color: #1977CC;
+							}
+						}
 					}
 
 					
